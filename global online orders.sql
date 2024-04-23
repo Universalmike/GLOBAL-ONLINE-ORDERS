@@ -4,6 +4,7 @@ INNER JOIN ordersdetails$ d
 ON o.OrderID=d.OrderID
 INNER JOIN employees_profile e
 ON o.EmployeeID=e.EmployeeID
+	
 SELECT *
 FROM ordersdetails$
 
